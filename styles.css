@@ -45,3 +45,4 @@ footer{background:var(--dark);color:#cdd8d0;padding:24px 0;font-size:.9rem;text-
 @media (max-width:600px){nav a:not(.btn){display:none}.hero{padding:60px 0}.section{padding:52px 0}}
 .herogrid{display:grid;gap:32px;align-items:center;grid-template-columns:1.3fr 1fr}.logo{width:100%;height:auto;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.35)}@media(max-width:800px){.herogrid{grid-template-columns:1fr}.logo{max-width:340px;margin:0 auto}}
 .credit{margin-top:10px}.credit a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;opacity:.85}.credit a:hover{opacity:1;text-decoration:underline}
+.sub a{color:var(--green);font-weight:600}@media (prefers-color-scheme:dark){.sub a{color:var(--gold)}}
