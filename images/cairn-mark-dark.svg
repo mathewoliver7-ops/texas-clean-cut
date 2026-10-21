@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-label="Cairn Web Studio mark (for dark backgrounds)">
+  <title>Cairn Web Studio mark (for dark backgrounds)</title>
+  <defs>
+    <mask id="cut-base" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M16 38 Q15 27 25 25.5 L40 25.5 Q49 27 48.5 36 Q48 43.5 39 44 L25 44 Q16 43 16 38 Z" transform="rotate(2.5 32 35)" fill="#000" stroke="#000" stroke-width="2.2" stroke-linejoin="round"/>
+    </mask>
+    <mask id="cut-mid" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M23 24 Q22 14 31 12.5 L37 12.5 Q45 14 44 22 Q43 29.5 36 30 L30 30 Q23 29 23 24 Z" transform="rotate(-5 33 21)" fill="#000" stroke="#000" stroke-width="2.2" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g transform="translate(0 -3.5)">
+    <g mask="url(#cut-base)"><path d="M9 50 Q9 41 19 40 L45 40 Q56 41 56 50 Q56 58.5 46 59 L19 59 Q9 58.5 9 50 Z" fill="#7A8B90"/></g>
+    <g mask="url(#cut-mid)"><path d="M16 38 Q15 27 25 25.5 L40 25.5 Q49 27 48.5 36 Q48 43.5 39 44 L25 44 Q16 43 16 38 Z" transform="rotate(2.5 32 35)" fill="#F1F2EF"/></g>
+    <path d="M23 24 Q22 14 31 12.5 L37 12.5 Q45 14 44 22 Q43 29.5 36 30 L30 30 Q23 29 23 24 Z" transform="rotate(-5 33 21)" fill="#C97A3D"/>
+  </g>
+</svg>
